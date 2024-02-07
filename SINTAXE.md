@@ -1,4 +1,45 @@
 # SINTAXE
+## CRIANDO PROJETO:
+Para criar um novo projeto usando o Prisma, você geralmente segue estes passos:
+
+### Passo 1: Instalação do Prisma CLI
+Certifique-se de ter o Prisma CLI instalado globalmente em sua máquina. Você pode instalar usando o npm (Node Package Manager) através do seguinte comando:
+
+```bash
+npm install -g prisma
+```
+
+### Passo 2: Inicialização do projeto
+Você pode iniciar um novo projeto Prisma executando o seguinte comando no terminal:
+
+```bash
+prisma init nome-do-projeto
+```
+
+Substitua "nome-do-projeto" pelo nome que você deseja dar ao seu projeto.
+
+### Passo 3: Configuração do ambiente
+Depois de criar o projeto, você precisará configurar seu ambiente de banco de dados. Isso pode ser feito modificando o arquivo `schema.prisma` no diretório do seu projeto. Este arquivo define o modelo de dados do seu aplicativo e a configuração do banco de dados.
+
+### Passo 4: Gerar o client do Prisma
+Após definir seu esquema no arquivo `schema.prisma`, você precisa gerar o cliente do Prisma. Isso é feito com o seguinte comando:
+
+```bash
+prisma generate
+```
+
+Este comando irá gerar o código TypeScript (ou JavaScript, dependendo da configuração do seu projeto) para interagir com o banco de dados.
+
+### Passo 5: Implementação do código
+Agora você pode começar a implementar a lógica do seu aplicativo usando o cliente Prisma gerado. Isso inclui a criação, leitura, atualização e exclusão de dados no banco de dados.
+
+### Passo 6: Executar o projeto
+Depois de implementar sua lógica de aplicativo, você pode executar o projeto usando qualquer estrutura ou ambiente de sua escolha (por exemplo, Express.js para back-end ou React.js para front-end).
+
+### Passo 7: Publicar e implantar
+Depois de testar e verificar que seu aplicativo está funcionando conforme esperado, você pode publicá-lo e implantá-lo em um ambiente de produção.
+
+## EXEMPLOS DE CÓDIGOS:
 Abaixo estão alguns exemplos de código usando o Prisma, juntamente com explicações sobre o que cada parte do código faz:
 
 1. **Definição de um Modelo de Banco de Dados usando Prisma Schema:**
