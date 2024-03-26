@@ -62,3 +62,4 @@ Em resumo, o uso do Azure SQL e Prisma em uma aplicação Full Stack oferece mui
 - [VEJA A DOCUMENTAÇÃO](https://www.prisma.io/docs)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-TYPESCRIPT)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:PRISMA)
